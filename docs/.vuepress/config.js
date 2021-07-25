@@ -2,6 +2,7 @@ const moment = require('moment');
 moment.locale('zh-cn');
 
 module.exports = {
+  base: '/document/',
   title: 'Java学习',
   description: 'Just playing around',
   head: [
@@ -26,17 +27,17 @@ module.exports = {
       { text: 'Vue', link: '/vue/' },
     ],
     sidebar: {
-      '/java/': [
+      '/Java/': [
         'aaa',
         'bbb',
         'ccc'
       ],
-      '/vue/': [
+      '/Vue/': [
         'aaa',
         'bbb',
         'ccc'
       ],
-      '/maven/': [
+      '/Maven/': [
         'aaa',
         'bbb',
         'ccc'
