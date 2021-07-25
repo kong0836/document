@@ -27,17 +27,17 @@ module.exports = {
       { text: 'Vue', link: '/vue/' },
     ],
     sidebar: {
-      '/Java/': [
+      '/java/': [
         'aaa',
         'bbb',
         'ccc'
       ],
-      '/Vue/': [
+      '/vue/': [
         'aaa',
         'bbb',
         'ccc'
       ],
-      '/Maven/': [
+      '/maven/': [
         'aaa',
         'bbb',
         'ccc'
