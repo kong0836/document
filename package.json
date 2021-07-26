@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://gitee.com/kong0836/document.git",
-  "author": "孔令会 <konglinghui@dajiashequ.com>",
+  "author": "konglinghui <17610760836@163.com>",
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
