@@ -33,10 +33,10 @@ module.exports = {
         text: '前端',
         ariaLabel: '后端',
         items: [
-          {text: 'Vue', link: '/vue/'}
+          {text: 'Vue', link: '/Vue/'}
         ]
       },
-      {text: 'Maven', link: '/maven/'},
+      {text: 'Maven', link: '/Maven/'},
     ],
     sidebar: {
       '/Java/': [
@@ -44,12 +44,12 @@ module.exports = {
         '标题2',
         '标题3'
       ],
-      '/vue/': [
+      '/Vue/': [
         '标题1',
         '标题2',
         '标题3'
       ],
-      '/maven/': [
+      '/Maven/': [
         '标题1',
         '标题2',
         '标题3'
