@@ -26,17 +26,25 @@ module.exports = {
         text: '后端',
         ariaLabel: '后端',
         items: [
-          {text: 'Java', link: '/Java/'}
+          {text: 'Java', link: '/Java/'},
+          {text: 'Jenkins', link: '/Jenkins/'},
+          {text: 'Maven', link: '/Maven/'},
+          {text: 'Mybatis', link: '/Mybatis/'},
+          {text: 'MySQL', link: '/MySQL/'},
+          {text: 'Nginx', link: '/Nginx/'},
+          {text: 'Redis', link: '/Redis/'},
+          {text: 'Spring', link: '/Spring/'},
+          {text: 'Tomcat', link: '/Tomcat/'},
         ]
       },
       {
         text: '前端',
         ariaLabel: '后端',
         items: [
-          {text: 'Vue', link: '/Vue/'}
+          {text: 'JavaScript', link: '/JavaScript/'},
+          {text: 'Vue', link: '/Vue/'},
         ]
       },
-      {text: 'Maven', link: '/Maven/'},
     ],
     sidebar: {
       '/Java/': [
@@ -44,12 +52,52 @@ module.exports = {
         '标题2',
         '标题3'
       ],
-      '/Vue/': [
+      '/JavaScript/': [
+        '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/Jenkins/': [
         '标题1',
         '标题2',
         '标题3'
       ],
       '/Maven/': [
+        '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/Mybatis/': [
+        '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/MySQL/': [
+        '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/Nginx/': [
+        '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/Redis/': [
+        '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/Spring/': [
+        '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/Tomcat/': [
+        '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/Vue/': [
         '标题1',
         '标题2',
         '标题3'
