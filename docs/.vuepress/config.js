@@ -3,7 +3,7 @@ moment.locale('zh-cn');
 
 module.exports = {
   base: '/document/',
-  title: 'Java学习',
+  title: '学以致用',
   description: 'Just playing around',
   head: [
     ['link', {rel: 'icon', href: '/favicon.ico'}]
@@ -19,6 +19,7 @@ module.exports = {
     ]
   ],
   themeConfig: {
+    logo: '/assets/img/logo.png',
     lastUpdated: '最近更新时间',
     nav: [
       {text: 'Home', link: '/'},
