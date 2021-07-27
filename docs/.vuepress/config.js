@@ -6,7 +6,7 @@ module.exports = {
   title: '学以致用',
   description: 'Just playing around',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', {rel: 'icon', href: '/favicon.ico'}]
   ],
   plugins: [
     [
@@ -23,28 +23,29 @@ module.exports = {
     lastUpdated: '最近更新时间',
     sidebarDepth: 2,
     nav: [
-      { text: 'Home', link: '/' },
+      {text: 'Home', link: '/'},
       {
         text: '后端',
         ariaLabel: '后端',
         items: [
-          { text: 'Java', link: '/Java/' },
-          { text: 'Jenkins', link: '/Jenkins/' },
-          { text: 'Maven', link: '/Maven/' },
-          { text: 'Mybatis', link: '/Mybatis/' },
-          { text: 'MySQL', link: '/MySQL/' },
-          { text: 'Nginx', link: '/Nginx/' },
-          { text: 'Redis', link: '/Redis/' },
-          { text: 'Spring', link: '/Spring/' },
-          { text: 'Tomcat', link: '/Tomcat/' },
+          {text: 'Java', link: '/Java/'},
+          {text: 'Jenkins', link: '/Jenkins/'},
+          {text: 'Maven', link: '/Maven/'},
+          {text: 'Nexus', link: '/Nexus/'},
+          {text: 'Mybatis', link: '/Mybatis/'},
+          {text: 'MySQL', link: '/MySQL/'},
+          {text: 'Nginx', link: '/Nginx/'},
+          {text: 'Redis', link: '/Redis/'},
+          {text: 'Spring', link: '/Spring/'},
+          {text: 'Tomcat', link: '/Tomcat/'},
         ]
       },
       {
         text: '前端',
         ariaLabel: '后端',
         items: [
-          { text: 'JavaScript', link: '/JavaScript/' },
-          { text: 'Vue', link: '/Vue/' },
+          {text: 'JavaScript', link: '/JavaScript/'},
+          {text: 'Vue', link: '/Vue/'},
         ]
       },
     ],
@@ -61,7 +62,7 @@ module.exports = {
       ],
       '/Jenkins/': [
         '01-安装',
-        '标题2',
+        '02-插件',
         '标题3'
       ],
       '/Maven/': [
@@ -76,6 +77,11 @@ module.exports = {
       ],
       '/MySQL/': [
         '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/Nexus/': [
+        '01-安装',
         '标题2',
         '标题3'
       ],
