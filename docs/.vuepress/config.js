@@ -37,6 +37,7 @@ module.exports = {
           {text: 'Nginx', link: '/Nginx/'},
           {text: 'Redis', link: '/Redis/'},
           {text: 'Spring', link: '/Spring/'},
+          {text: 'SpringBoot', link: '/SpringBoot/'},
           {text: 'Tomcat', link: '/Tomcat/'},
         ]
       },
@@ -44,8 +45,9 @@ module.exports = {
         text: '前端',
         ariaLabel: '后端',
         items: [
-          {text: 'JavaScript', link: '/JavaScript/'},
           {text: 'Vue', link: '/Vue/'},
+          {text: 'ElementUI', link: '/ElementUI/'},
+          {text: 'JavaScript', link: '/JavaScript/'},
         ]
       },
     ],
@@ -100,12 +102,22 @@ module.exports = {
         '标题2',
         '标题3'
       ],
+      '/SpringBoot/': [
+        '标题1',
+        '标题2',
+        '标题3'
+      ],
       '/Tomcat/': [
         '标题1',
         '标题2',
         '标题3'
       ],
       '/Vue/': [
+        '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/ElementUI/': [
         '标题1',
         '标题2',
         '标题3'
