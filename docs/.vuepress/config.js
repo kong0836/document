@@ -39,6 +39,7 @@ module.exports = {
           {text: 'Spring', link: '/Spring/'},
           {text: 'SpringBoot', link: '/SpringBoot/'},
           {text: 'Tomcat', link: '/Tomcat/'},
+          {text: 'CentOS', link: '/CentOS/'},
         ]
       },
       {
@@ -119,6 +120,11 @@ module.exports = {
       ],
       '/ElementUI/': [
         '标题1',
+        '标题2',
+        '标题3'
+      ],
+      '/CentOS/': [
+        '防火墙',
         '标题2',
         '标题3'
       ],
