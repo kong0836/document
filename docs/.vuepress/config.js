@@ -54,8 +54,7 @@ module.exports = {
     ],
     sidebar: {
       '/Java/': [
-        '标题1',
-        '标题2',
+        '02-安装',
         '标题3'
       ],
       '/JavaScript/': [
