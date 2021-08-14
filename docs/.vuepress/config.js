@@ -23,7 +23,16 @@ module.exports = {
     lastUpdated: '最近更新时间',
     sidebarDepth: 2,
     nav: [
-      {text: 'Home', link: '/'},
+      // {text: 'Home', link: '/'},
+      {
+        text: '前端',
+        ariaLabel: '后端',
+        items: [
+          {text: 'Vue', link: '/Vue/'},
+          {text: 'ElementUI', link: '/ElementUI/'},
+          {text: 'JavaScript', link: '/JavaScript/'},
+        ]
+      },
       {
         text: '后端',
         ariaLabel: '后端',
@@ -46,18 +55,15 @@ module.exports = {
         text: '微服务',
         ariaLabel: '微服务',
         items: [
-          {text: 'Jemter', link: '/Jmeter/'},
           {text: 'SpringCloud', link: '/SpringCloud/'},
           {text: 'Eureka', link: '/Eureka/'},
         ]
       },
       {
-        text: '前端',
-        ariaLabel: '后端',
+        text: '性能测试',
+        ariaLabel: '性能测试',
         items: [
-          {text: 'Vue', link: '/Vue/'},
-          {text: 'ElementUI', link: '/ElementUI/'},
-          {text: 'JavaScript', link: '/JavaScript/'},
+          {text: 'Jemter', link: '/Jmeter/'},
         ]
       },
     ],
@@ -67,7 +73,7 @@ module.exports = {
         '标题3'
       ],
       '/JavaScript/': [
-        '标题1',
+        'NodeJS',
         '标题2',
         '标题3'
       ],
@@ -136,7 +142,9 @@ module.exports = {
         '标题2',
         '标题3'
       ],
-      '/Jmeter/': [],
+      '/Jmeter/': [
+        '安装'
+      ],
       '/SpringCloud/': [],
       '/Eureka/': [
         '001'
