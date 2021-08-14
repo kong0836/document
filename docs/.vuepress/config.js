@@ -43,6 +43,15 @@ module.exports = {
         ]
       },
       {
+        text: '微服务',
+        ariaLabel: '微服务',
+        items: [
+          {text: 'Jemter', link: '/Jmeter/'},
+          {text: 'SpringCloud', link: '/SpringCloud/'},
+          {text: 'Eureka', link: '/Eureka/'},
+        ]
+      },
+      {
         text: '前端',
         ariaLabel: '后端',
         items: [
@@ -126,6 +135,11 @@ module.exports = {
         '标题1',
         '标题2',
         '标题3'
+      ],
+      '/Jmeter/': [],
+      '/SpringCloud/': [],
+      '/Eureka/': [
+        '001'
       ],
     },
   },
